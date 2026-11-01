@@ -1,0 +1,1277 @@
+{
+  "version": 1,
+  "source": "BANCO DE PREGUNTAS CON IMAGENES - ORL.pdf",
+  "pages": 224,
+  "figureCount": 49,
+  "mediaBytes": 11353421,
+  "examinationPhotos": [],
+  "references": [
+    "Alanís Ibarra, A. (2002). Manual de otorrinolaringología clínica (1.ª ed.). Editorial UAS.",
+    "Basterra Alegría, J., & Alba García, J. R. (2009a). Exploración clínica y mediante técnicas de imagen de la cavidad oral y la faringe. En J. Basterra Alegría (Ed.), Tratado de otorrinolaringología y patología cervicofacial (pp. 443–452). Elsevier Masson.",
+    "Basterra Alegría, J., & Alba García, J. R. (2009b). Exploración clínica y técnicas de diagnóstico por imagen de la laringe. En J. Basterra Alegría (Ed.), Tratado de otorrinolaringología y patología cervicofacial (pp. 581–588). Elsevier Masson.",
+    "Basterra Alegría, J., & Armengot Carceller, M. (2009). Exploración clínica y por imagen. Pruebas funcionales en rinología. En J. Basterra Alegría (Ed.), Tratado de otorrinolaringología y patología cervicofacial (pp. 289–300). Elsevier Masson.",
+    "Basterra Alegría, J., & Campos Catalá, A. (2009). Exploración clínica del oído externo y medio. Técnicas de diagnóstico por la imagen en otología. En J. Basterra Alegría (Ed.), Tratado de otorrinolaringología y patología cervicofacial (pp. 39–46). Elsevier Masson.",
+    "Doménech Abellán, E., Serrano García, C., & Solís Muñiz, I. (2012). Estudio radiológico de la nariz y los senos paranasales. En M. P. Navarro Paule, R. Pérez Aguilera y C. Sprekelsen Gassó (Eds.), Manual de otorrinolaringología infantil (pp. 194–212). Elsevier España.",
+    "Fischbein, N. J., & Ong, K. C. (2009). Radiología. En A. K. Lalwani (Ed.), Diagnóstico y tratamiento en otorrinolaringología. Cirugía de cabeza y cuello (2.ª ed., pp. 41–159). McGraw-Hill Interamericana.",
+    "Hernández Weigand, P., Iglesias Moreno, M. C., & Poch Broto, J. (s. f.). Anatomía, fisiología, exploración y semiología de la faringe. En J. Poch Broto (Dir.), Otorrinolaringología y patología cervicofacial. Editorial Médica Panamericana.",
+    "Iglesias Moreno, M. C., López-Tappero Sainz, J. V., & Poch Broto, J. (s. f.). Anatomía y fisiología de la laringe. Exploración laríngea. En J. Poch Broto (Dir.), Otorrinolaringología y patología cervicofacial. Editorial Médica Panamericana.",
+    "Khan, M., Schulte, J., Zinreich, S. J., & Aygun, N. (2021). Overview of diagnostic imaging of the head and neck. En P. W. Flint, H. W. Francis, B. H. Haughey, M. M. Lesperance, V. J. Lund, K. T. Robbins, & J. R. Thomas (Eds.), Cummings otolaryngology: Head and neck surgery (7.ª ed., pp. 90–140). Elsevier.",
+    "Netter, F. H. (2023). Netter. Atlas de anatomía humana: Abordaje por sistemas (8.ª ed.). Elsevier España.",
+    "Ocampos Gubler, D., & Risson Pino, G. (2012). Hipertrofia de las vegetaciones adenoideas. En M. P. Navarro Paule, R. Pérez Aguilera y C. Sprekelsen Gassó (Eds.), Manual de otorrinolaringología infantil (pp. 298–303). Elsevier España.",
+    "Rodríguez Perales, M. A., & Sánchez Santa Ana, R. (2007). Trauma facial y fracturas craneofaciales. En J. Andrade Pradillo y G. Fajardo Dolci (Eds.), Temas selectos en otorrinolaringología (pp. 181–194). Editorial Alfil.",
+    "Vallés Varela, H. (s. f.). Fisiología, semiología y exploración de fosas nasales y senos paranasales. En J. Poch Broto (Dir.), Otorrinolaringología y patología cervicofacial (pp. 135–149). Editorial Médica Panamericana."
+  ],
+  "figures": [
+    {
+      "id": "fig-001",
+      "title": "Cráneo: vista anterior",
+      "region": "craneo",
+      "modality": "anatomia",
+      "plane": "Anterior",
+      "image": "assets/atlas/fig-001.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 296672,
+      "sha256": "e864b3936ef6a24851c8ce3f51589efaaa9fe5cf3e088fe54b02164eae06acda",
+      "page": 3,
+      "caption": "Figura 1. Netter (2023, lámina S-123). Cráneo: visión anterior (con la órbita derecha en visión frontal). Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "fig-002",
+      "title": "Cráneo: vista lateral",
+      "region": "craneo",
+      "modality": "anatomia",
+      "plane": "Lateral",
+      "image": "assets/atlas/fig-002.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 326794,
+      "sha256": "3caea37d9f47f51019570e569e4455d561e033bb9707f7cf91d143356d602073",
+      "page": 4,
+      "caption": "Figura 2. Netter (2023, lámina S-125). Cráneo: visión lateral. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "fig-003",
+      "title": "Forámenes de la base del cráneo",
+      "region": "craneo",
+      "modality": "anatomia",
+      "plane": "Superior",
+      "image": "assets/atlas/fig-003.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 295533,
+      "sha256": "eb2fc16c54445bca059248743a63041a3a43eebd38233934e9931e35fc01b8ed",
+      "page": 6,
+      "caption": "Figura 3. Netter (2023, lámina S-134). Forámenes y conductos de la base del cráneo: visión superior. Rótulos originales en español. Cada orificio indica, a la derecha, las estructuras que lo atraviesan.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        27
+      ]
+    },
+    {
+      "id": "fig-004",
+      "title": "Arterias carótidas y sus ramas",
+      "region": "cuello",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-004.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 321906,
+      "sha256": "4666b815789d64e1d0156dcbf5d64236cad617fa74b1047136443979afb063fb",
+      "page": 9,
+      "caption": "Figura 4. Netter (2023, lámina S-324). Arterias carótidas. Rótulos originales en español. Incluye el esquema de las ramas de la carótida externa derecha.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "fig-005",
+      "title": "Vasos superficiales de la cara",
+      "region": "craneo",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-005.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 398061,
+      "sha256": "f808a3d9d1e09d6ed9efefaf8dee9f108e29e26b007e2d11bd60029437c55a22",
+      "page": 13,
+      "caption": "Figura 5. Netter (2023, lámina S-322). Arterias y venas superficiales de la cara y cuero cabelludo. Rótulos originales en español. Incluye el esquema de la vascularización arterial de la cara: en rojo, territorio de la carótida externa; en negro, de la carótida interna (vía arteria oftálmica).",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        19,
+        20
+      ]
+    },
+    {
+      "id": "fig-006",
+      "title": "Niveles ganglionares cervicales",
+      "region": "cuello",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-006.jpg",
+      "width": 640,
+      "height": 712,
+      "bytes": 73106,
+      "sha256": "af635929b964fe4da1dd903a52f3c64670c9b90c30dbc0cf15210f4516faee3a",
+      "page": 24,
+      "caption": "Figura 6. Figura 32-10 de Basterra Alegría, Zapater Latorre y Alba García (2009b, p. 434). Niveles ganglionares del cuello (números romanos I a VI). Nivel I: submentoniano y submandibular; II: yugulares altos (base del cráneo–hioides); III: yugulares medios (hioides– omohioideo); IV: yugulares bajos (omohioideo–clavícula); V: triángulo posterior; VI: compartimento anterior (pretraqueales y paratraqueales).",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        49,
+        50,
+        51,
+        52,
+        53
+      ]
+    },
+    {
+      "id": "fig-007",
+      "title": "Oído externo, medio e interno",
+      "region": "oido",
+      "modality": "anatomia",
+      "plane": "Frontal",
+      "image": "assets/atlas/fig-007.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 318894,
+      "sha256": "c4f87e24025eb69fe4b5f0040759238abb0f196345061dc6c278afaa3e0b7540",
+      "page": 29,
+      "caption": "Figura 7. Netter (2023, lámina S-93). Oído y vía de recepción del sonido en la cóclea. Rótulos originales en español. Corte frontal: oído externo, medio e interno en una sola imagen.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        59,
+        60,
+        61,
+        67,
+        80,
+        81
+      ]
+    },
+    {
+      "id": "fig-008",
+      "title": "Otoscopia: membrana timpánica normal",
+      "region": "oido",
+      "modality": "otoscopia",
+      "plane": "",
+      "image": "assets/atlas/fig-008.jpg",
+      "width": 660,
+      "height": 687,
+      "bytes": 78422,
+      "sha256": "958aa5879343c9e0f1546bf8ca7a03657f1d6b0c36571f2cfb9e452edea19862",
+      "page": 31,
+      "caption": "Figura 8. Figura 4-3 de Basterra Alegría y Campos Catalá (2009b, p. 41). Imagen de un tímpano normal con sus elementos anatómicos más importantes: pars flácida, pars tensa, ligamento tímpano-maleolar posterior, apófisis corta del martillo, umbo, triángulo luminoso de Politzer y anulus. Rótulos originales. El tímpano normal tiene una coloración gris perlada; el triángulo luminoso es indicativo de un tímpano normal.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "id": "fig-009",
+      "title": "Cavidad timpánica: vasos y nervios",
+      "region": "oido",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-009.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 374109,
+      "sha256": "ce713f2be007b6a54730a7cb957c51a69464765c78be870e28dab395914d4b7f",
+      "page": 33,
+      "caption": "Figura 9. Netter (2023, lámina S-95). Cavidad timpánica. Rótulos originales en español. Muestra sus arterias (timpánicas anterior, posterior, superior e inferior; carotidotimpánicas; estilomastoidea) y nervios (facial, cuerda del tímpano, plexo timpánico).",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "id": "fig-010",
+      "title": "Laberintos óseo y membranoso",
+      "region": "oido",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-010.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 272170,
+      "sha256": "e3db014c0712b8d6fc2fc5b4d00ed5560cb4f8d88b07b616acdde718f0478d2e",
+      "page": 38,
+      "caption": "Figura 10. Netter (2023, lámina S-96). Laberintos óseo y membranoso. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "id": "fig-011",
+      "title": "Esqueleto de la nariz",
+      "region": "nariz",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-011.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 170285,
+      "sha256": "8a629e31bea4fc603ddd30f89e6bd734e4616e70c512a762dda8d155b4c6e969",
+      "page": 79,
+      "caption": "Figura 11. Netter (2023, lámina S-122). Esqueleto de la nariz. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        190,
+        191
+      ]
+    },
+    {
+      "id": "fig-012",
+      "title": "Tabique nasal",
+      "region": "nariz",
+      "modality": "anatomia",
+      "plane": "Sagital",
+      "image": "assets/atlas/fig-012.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 329680,
+      "sha256": "068c368e10effc92e5c751c5e7576bff255d114456285fbdf95798eec1d00c9d",
+      "page": 81,
+      "caption": "Figura 12. Netter (2023, lámina S-360). Pared medial de la cavidad nasal (tabique nasal). Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        193,
+        194,
+        195
+      ]
+    },
+    {
+      "id": "fig-013",
+      "title": "Pared lateral de la fosa nasal",
+      "region": "nariz",
+      "modality": "anatomia",
+      "plane": "Sagital",
+      "image": "assets/atlas/fig-013.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 359834,
+      "sha256": "35914ce279beb40f7faac4df49be7fccd3a65c8a368d780332512f3c6f382cd5",
+      "page": 83,
+      "caption": "Figura 13. Netter (2023, lámina S-361). Pared lateral de la cavidad nasal. Rótulos originales en español. Incluye la visión con espéculo y la pared lateral con los cornetes medio e inferior cortados: bulla etmoidal, hiato semilunar, apófisis unciforme y abertura del conducto nasolagrimal.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        196,
+        197,
+        198,
+        199
+      ]
+    },
+    {
+      "id": "fig-014",
+      "title": "Senos paranasales",
+      "region": "nariz",
+      "modality": "anatomia",
+      "plane": "Frontal y transversal",
+      "image": "assets/atlas/fig-014.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 329404,
+      "sha256": "83a75c8c54dff129e5437a5810d969b300ed86d78960f90fd6ef319d42102c9f",
+      "page": 85,
+      "caption": "Figura 14. Netter (2023, lámina S-368). Senos paranasales: cortes frontal y transversal. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        199,
+        200,
+        201,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "fig-015",
+      "title": "Irrigación de la cavidad nasal",
+      "region": "nariz",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-015.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 340450,
+      "sha256": "28119d656a985dc7b9443be4347cf113f926bfad6cdfbed29577e1fc3e67f392",
+      "page": 87,
+      "caption": "Figura 15. Netter (2023, lámina S-363). Vasculatura de la cavidad nasal. Rótulos originales en español. Pared lateral y tabique: arteria esfenopalatina (ramas nasales posteriores laterales y rama septal posterior), arterias etmoidales anterior y posterior, palatina mayor, ramas septales de la labial superior, ramas alares de la facial y plexo de Kiesselbach.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        204,
+        205,
+        206,
+        207,
+        208
+      ]
+    },
+    {
+      "id": "fig-016",
+      "title": "Faringe: vista medial",
+      "region": "faringe",
+      "modality": "anatomia",
+      "plane": "Medial",
+      "image": "assets/atlas/fig-016.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 380895,
+      "sha256": "7554320b7a98b94e7990ae8981a602ac9394efd03f2facb89cd24dcfce7a579b",
+      "page": 109,
+      "caption": "Figura 16. Netter (2023, lámina S-372). Faringe: visión medial. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        255,
+        256,
+        257,
+        258
+      ]
+    },
+    {
+      "id": "fig-017",
+      "title": "Faringe: vista posterior abierta",
+      "region": "faringe",
+      "modality": "anatomia",
+      "plane": "Posterior",
+      "image": "assets/atlas/fig-017.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 271960,
+      "sha256": "5f1f10846fcd640c075d8dc1cc787a051c426a31cdee0bd50c5e15ab68015db0",
+      "page": 110,
+      "caption": "Figura 17. Netter (2023, lámina S-373). Faringe: visión posterior abierta. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        255,
+        256,
+        257,
+        258,
+        259
+      ]
+    },
+    {
+      "id": "fig-018",
+      "title": "Fauces e irrigación de la amígdala",
+      "region": "faringe",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-018.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 356313,
+      "sha256": "b5f9d162d0f3ebf1842de4ff6c03e8cca95989f46883de6df1a1a7779653374b",
+      "page": 111,
+      "caption": "Figura 18. Netter (2023, lámina S-403). Fauces. Rótulos originales en español. Irrigación de la amígdala palatina (mucosa extirpada, abajo): rama tonsilar de la arteria facial, rama tonsilar de la arteria palatina ascendente, rama tonsilar de la arteria faríngea ascendente, rama tonsilar de la arteria palatina menor y rama lingual dorsal de la arteria lingual.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        260,
+        261,
+        262,
+        263,
+        264,
+        269
+      ]
+    },
+    {
+      "id": "fig-019",
+      "title": "Espacios parafaríngeos",
+      "region": "faringe",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-019.jpg",
+      "width": 916,
+      "height": 860,
+      "bytes": 157493,
+      "sha256": "48515e9bf779a75d3386032ec8beaca563f12bf9150c9274298513bff67d0182",
+      "page": 118,
+      "caption": "Figura 19. Figura 32-5 de Basterra Alegría, Zapater Latorre y Alba García (2009a, p. 429). Espacios parafaríngeos y constitución anatómica de la pared faríngea (modificado de la Ponencia Oficial de la SEORL, 2008). 1: espacio maxilofaríngeo; 2: espacio preestíleo; 3: espacio retroestíleo; 4: espacio retrofaríngeo. Rótulos originales.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        256,
+        274
+      ]
+    },
+    {
+      "id": "fig-020",
+      "title": "Cartílagos laríngeos",
+      "region": "laringe",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-020.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 266312,
+      "sha256": "a44b2fe11f4a6939e8bac203f76e56b6b22ae9558a710873c07fb5e8ae130cd7",
+      "page": 135,
+      "caption": "Figura 20. Netter (2023, lámina S-375). Cartílagos de la laringe. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        309,
+        310,
+        311,
+        312,
+        313
+      ]
+    },
+    {
+      "id": "fig-021",
+      "title": "Músculos intrínsecos de la laringe",
+      "region": "laringe",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-021.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 318928,
+      "sha256": "6dc7fb75e9d9f6f9ed915f5dd9d514a0bd4182e0973f9cbf763de26f0a8699ff",
+      "page": 136,
+      "caption": "Figura 21. Netter (2023, lámina S-376). Músculos intrínsecos de la laringe. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        314,
+        315,
+        324
+      ]
+    },
+    {
+      "id": "fig-022",
+      "title": "Nervios y corte frontal de la laringe",
+      "region": "laringe",
+      "modality": "anatomia",
+      "plane": "Frontal",
+      "image": "assets/atlas/fig-022.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 283119,
+      "sha256": "b6e0f379c21e61fc3726590cfd4279a366a41cc76c26fe6e6f75d48762878649",
+      "page": 137,
+      "caption": "Figura 22. Netter (2023, lámina S-378). Nervios y corte frontal de la laringe. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        316,
+        317,
+        318,
+        319,
+        320,
+        321
+      ]
+    },
+    {
+      "id": "fig-023",
+      "title": "Nervio facial y glándula parótida",
+      "region": "cuello",
+      "modality": "anatomia",
+      "plane": "",
+      "image": "assets/atlas/fig-023.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 274593,
+      "sha256": "9128ec83c0ab6d1ef5d95fa1a20b4cc46a52ed354e82fdd2f6fe35bd2bc020a4",
+      "page": 169,
+      "caption": "Figura 23. Netter (2023, lámina S-64). Ramos del nervio facial y glándula parótida. Rótulos originales en español.",
+      "guides": [],
+      "notes": [],
+      "questions": [
+        31,
+        388,
+        389
+      ]
+    },
+    {
+      "id": "fig-024",
+      "title": "Radiografía: Waters y huesos nasales",
+      "region": "nariz",
+      "modality": "rx",
+      "plane": "Waters y lateral",
+      "image": "assets/atlas/fig-024.jpg",
+      "width": 1113,
+      "height": 505,
+      "bytes": 271316,
+      "sha256": "a5cab253e7b5776fa467476fee78885776334df76df5dea9b428d0f8aa0e8ba1",
+      "page": 205,
+      "caption": "Figura 1 de Vallés Varela (s. f., p. 144). Anatomía radiológica normal de las fosas nasales y del macizo facial. Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-024-guide.png",
+          "page": 205
+        }
+      ],
+      "notes": [],
+      "questions": [
+        190,
+        201,
+        202
+      ]
+    },
+    {
+      "id": "fig-025",
+      "title": "Radiografía: Caldwell y perfil",
+      "region": "nariz",
+      "modality": "rx",
+      "plane": "Caldwell y lateral",
+      "image": "assets/atlas/fig-025.jpg",
+      "width": 1127,
+      "height": 550,
+      "bytes": 315190,
+      "sha256": "830515262cf0c9198e95b8efcf75a61d53db725b38a7ea3a6a7a31341c6c4d97",
+      "page": 206,
+      "caption": "Figura 2 de Vallés Varela (s. f., p. 144). Anatomía radiológica normal de las fosas nasales y del macizo facial. Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-025-guide.png",
+          "page": 206
+        }
+      ],
+      "notes": [],
+      "questions": [
+        190,
+        199,
+        201,
+        202
+      ]
+    },
+    {
+      "id": "fig-026",
+      "title": "Radiografías de cráneo: PA y Waters",
+      "region": "craneo",
+      "modality": "rx",
+      "plane": "PA y Waters",
+      "image": "assets/atlas/fig-026.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 187959,
+      "sha256": "461f94527bf801c9303fc0a1493b7b97434c4eb08b2c9020dbfbb8cb22421980",
+      "page": 207,
+      "caption": "Netter (2023, lámina S-124). Cráneo: radiografías. Arriba, proyección posteroanterior; abajo, proyección de Waters. Rótulos originales en español.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-026-guide.png",
+          "page": 207
+        }
+      ],
+      "notes": [],
+      "questions": [
+        1,
+        2,
+        190,
+        201
+      ]
+    },
+    {
+      "id": "fig-027",
+      "title": "Radiografía lateral de cráneo",
+      "region": "craneo",
+      "modality": "rx",
+      "plane": "Lateral",
+      "image": "assets/atlas/fig-027.jpg",
+      "width": 1225,
+      "height": 1337,
+      "bytes": 162575,
+      "sha256": "17908b1bbcc96b46c3a56363a274ce31b9476c97882c7a43c8e99ea7c9d92b7b",
+      "page": 208,
+      "caption": "Netter (2023, lámina S-126). Cráneo: radiografía lateral. Rótulos originales en español.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-027-guide.png",
+          "page": 208
+        }
+      ],
+      "notes": [],
+      "questions": [
+        1,
+        2,
+        5,
+        190
+      ]
+    },
+    {
+      "id": "fig-028",
+      "title": "RM sagital de la faringe",
+      "region": "faringe",
+      "modality": "rm",
+      "plane": "Sagital",
+      "image": "assets/atlas/fig-028.jpg",
+      "width": 947,
+      "height": 913,
+      "bytes": 98515,
+      "sha256": "a3cf932ede78463b991abf4f3eae703a03ee15ea496f39fa530a254a8b8c1861",
+      "page": 209,
+      "caption": "Figura 33-5 de Basterra Alegría y Alba García (2009a, p. 448). RM sagital: anatomía radiológica de la faringe. Rótulos originales en español.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-028-guide.png",
+          "page": 209
+        }
+      ],
+      "notes": [
+        "El documento no incluye una radiografía lateral normal del cavum: los ejemplos de los libros mostraban hipertrofia adenoidea. Esta figura es una RM, no una radiografía."
+      ],
+      "questions": [
+        255,
+        256,
+        266,
+        269
+      ]
+    },
+    {
+      "id": "fig-029",
+      "title": "TC sagital: vía aérea y laringe",
+      "region": "laringe",
+      "modality": "tc",
+      "plane": "Sagital, reconstrucción MPR",
+      "image": "assets/atlas/fig-029.jpg",
+      "width": 553,
+      "height": 623,
+      "bytes": 178064,
+      "sha256": "fc81ef4b6deaf5ac67d1a4849a3189344915ebadb82f1aeba5fcf3ccc1817ca2",
+      "page": 210,
+      "caption": "Figura 15 A de Iglesias Moreno et al. (s. f., p. 266). Reconstrucción sagital de TC. Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-029-guide.png",
+          "page": 210
+        }
+      ],
+      "notes": [],
+      "questions": [
+        255,
+        256,
+        309,
+        312
+      ]
+    },
+    {
+      "id": "fig-030",
+      "title": "RM sagital de nariz y senos",
+      "region": "nariz",
+      "modality": "rm",
+      "plane": "Sagital",
+      "image": "assets/atlas/fig-030.jpg",
+      "width": 638,
+      "height": 570,
+      "bytes": 59568,
+      "sha256": "8c53e434359652b07011d5600d6712ea2d115d5cc2b13c9c46b4e5dc70ca7ca9",
+      "page": 210,
+      "caption": "Figura 24-4 de Basterra Alegría y Armengot Carceller (2009, p. 292). Corte de perfil (sagital) de RM: partes blandas del macizo facial. Rótulos",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-030-guide.png",
+          "page": 210
+        }
+      ],
+      "notes": [],
+      "questions": [
+        193,
+        196,
+        199,
+        202
+      ]
+    },
+    {
+      "id": "fig-031",
+      "title": "TC coronal 1–2: región anterior",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal · 1–2",
+      "image": "assets/atlas/fig-031.jpg",
+      "width": 1180,
+      "height": 495,
+      "bytes": 270805,
+      "sha256": "eaa6cf00b81df681ef44b3f7692b119b5f0a5bd8e3ec93ba6cee7de6b89d66b9",
+      "page": 211,
+      "caption": "Figura 3 de Vallés Varela (s. f., p. 145). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-031-guide.png",
+          "page": 211
+        }
+      ],
+      "notes": [],
+      "questions": [
+        190,
+        193,
+        196,
+        198
+      ]
+    },
+    {
+      "id": "fig-032",
+      "title": "TC coronal 3–4: complejo osteomeatal",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal · 3–4",
+      "image": "assets/atlas/fig-032.jpg",
+      "width": 1127,
+      "height": 460,
+      "bytes": 271427,
+      "sha256": "217da251501b29721c896f35567aa31e43c0a53b347f01d32ec6334791c7f2e9",
+      "page": 212,
+      "caption": "Figura 4 de Vallés Varela (s. f., p. 145). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-032-guide.png",
+          "page": 212
+        }
+      ],
+      "notes": [],
+      "questions": [
+        196,
+        197,
+        198,
+        199,
+        201
+      ]
+    },
+    {
+      "id": "fig-033",
+      "title": "TC coronal 5–6: etmoides y órbita",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal · 5–6",
+      "image": "assets/atlas/fig-033.jpg",
+      "width": 1146,
+      "height": 470,
+      "bytes": 285640,
+      "sha256": "6fa1c1eb3e6925ebc38d366c8f45c9df894a3fcf831ddc42c23ea25b85d678a2",
+      "page": 213,
+      "caption": "Figura 5 de Vallés Varela (s. f., p. 146). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-033-guide.png",
+          "page": 213
+        }
+      ],
+      "notes": [],
+      "questions": [
+        193,
+        196,
+        199,
+        201
+      ]
+    },
+    {
+      "id": "fig-034",
+      "title": "TC coronal 7–8: esfenoides y coanas",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal · 7–8",
+      "image": "assets/atlas/fig-034.jpg",
+      "width": 1146,
+      "height": 440,
+      "bytes": 266295,
+      "sha256": "55a3c552973d59e7920bca05b72441d73b798d2996f436e06abbf7f431ba49d8",
+      "page": 214,
+      "caption": "Figura 6 de Vallés Varela (s. f., p. 146). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-034-guide.png",
+          "page": 214
+        }
+      ],
+      "notes": [],
+      "questions": [
+        193,
+        196,
+        199,
+        202,
+        255
+      ]
+    },
+    {
+      "id": "fig-035",
+      "title": "TC coronal: meato medio",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal",
+      "image": "assets/atlas/fig-035.jpg",
+      "width": 638,
+      "height": 553,
+      "bytes": 67444,
+      "sha256": "0f9279ea8f21cd66de4d6b2150b4098388fd9913b81d8883386cea1312e1343c",
+      "page": 215,
+      "caption": "Figura 24-5 de Basterra Alegría y Armengot Carceller (2009, p. 293). Rótulos originales: etmoides, techo de la fosa, cornete medio, seno maxilar",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-035-guide.png",
+          "page": 215
+        }
+      ],
+      "notes": [
+        "El anexo advierte que los pies del libro intercambian los términos «axial» y «coronal» en las figuras 24-5 a 24-8. Se conserva la clasificación del anexo y su nota original en la guía de las figuras coronales."
+      ],
+      "questions": [
+        196,
+        197,
+        199,
+        201
+      ]
+    },
+    {
+      "id": "fig-036",
+      "title": "TC coronal: seno frontal",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Coronal",
+      "image": "assets/atlas/fig-036.jpg",
+      "width": 1339,
+      "height": 519,
+      "bytes": 94246,
+      "sha256": "a5a01f22a3806d5e533c6b41b979c182913e12960f8ef8e12d586340678c6917",
+      "page": 215,
+      "caption": "Figura 24-8 A y B de Basterra Alegría y Armengot Carceller (2009, p. 294). Seno frontal. A: tabique que separa ambos senos frontales y morfología",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-036-guide.png",
+          "page": 215
+        }
+      ],
+      "notes": [
+        "El anexo advierte que los pies del libro intercambian los términos «axial» y «coronal» en las figuras 24-5 a 24-8. Se conserva la clasificación del anexo y su nota original en la guía de las figuras coronales."
+      ],
+      "questions": [
+        197,
+        199,
+        202,
+        203
+      ]
+    },
+    {
+      "id": "fig-037",
+      "title": "TC axial: etmoides y esfenoides",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Axial",
+      "image": "assets/atlas/fig-037.jpg",
+      "width": 1360,
+      "height": 550,
+      "bytes": 113705,
+      "sha256": "a361ec223fded9024d0dee23f6385b19c1028fbe95b50d7350ccf7433d69da56",
+      "page": 216,
+      "caption": "Figura 24-7 A y B de Basterra Alegría y Armengot Carceller (2009, p. 293). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-037-guide.png",
+          "page": 216
+        }
+      ],
+      "notes": [
+        "El anexo advierte que los pies del libro intercambian los términos «axial» y «coronal» en las figuras 24-5 a 24-8. Se conserva la clasificación del anexo y su nota original en la guía de las figuras coronales."
+      ],
+      "questions": [
+        193,
+        199,
+        202
+      ]
+    },
+    {
+      "id": "fig-038",
+      "title": "TC axial: seno maxilar",
+      "region": "nariz",
+      "modality": "tc",
+      "plane": "Axial",
+      "image": "assets/atlas/fig-038.jpg",
+      "width": 629,
+      "height": 599,
+      "bytes": 62262,
+      "sha256": "c4fa8175ec3f54b387c2c0d1a594b21362c59631ed01ff84425034d1adf2d608",
+      "page": 216,
+      "caption": "Figura 24-6 de Basterra Alegría y Armengot Carceller (2009, p. 293). Rótulos originales: seno maxilar (SM), cornete inferior, rinofaringe (RF), alas",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-038-guide.png",
+          "page": 216
+        }
+      ],
+      "notes": [
+        "El anexo advierte que los pies del libro intercambian los términos «axial» y «coronal» en las figuras 24-5 a 24-8. Se conserva la clasificación del anexo y su nota original en la guía de las figuras coronales."
+      ],
+      "questions": [
+        193,
+        196,
+        201
+      ]
+    },
+    {
+      "id": "fig-039",
+      "title": "TC axial: cavum y región tubárica",
+      "region": "faringe",
+      "modality": "tc",
+      "plane": "Axial",
+      "image": "assets/atlas/fig-039.jpg",
+      "width": 638,
+      "height": 687,
+      "bytes": 74092,
+      "sha256": "101ccea9c1e45f6d1e303cc9ab0ab6be7190b29223aab152e871461601faee58",
+      "page": 217,
+      "caption": "Figura 33-7 de Basterra Alegría y Alba García (2009a, p. 449). Corte axial de TC que pasa por la rinofaringe al nivel de la trompa de Eustaquio.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-039-guide.png",
+          "page": 217
+        }
+      ],
+      "notes": [],
+      "questions": [
+        255,
+        266
+      ]
+    },
+    {
+      "id": "fig-040",
+      "title": "RM del cuello suprahioideo",
+      "region": "cuello",
+      "modality": "rm",
+      "plane": "Axial y coronal",
+      "image": "assets/atlas/fig-040.jpg",
+      "width": 1077,
+      "height": 1030,
+      "bytes": 237884,
+      "sha256": "c4133d1c00d7a6a0f6529d86f33e0101ea7b9799ee4b1cf74288fc7084cb042e",
+      "page": 218,
+      "caption": "Figura 8.17 de Khan et al. (2021, p. 109). Anatomía normal en RM del cuello suprahioideo. A: sagital T1 en la línea media sin contraste. B: axial T1",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-040-guide.png",
+          "page": 218
+        }
+      ],
+      "notes": [],
+      "questions": [
+        255,
+        256,
+        267,
+        268,
+        388
+      ]
+    },
+    {
+      "id": "fig-041",
+      "title": "RM de la orofaringe",
+      "region": "faringe",
+      "modality": "rm",
+      "plane": "Sagital T1 y axial T2",
+      "image": "assets/atlas/fig-041.jpg",
+      "width": 1242,
+      "height": 631,
+      "bytes": 91544,
+      "sha256": "f4a3673290e866049e07201aef4ff536330cdb9970d4de2b8852230e0ffe0a77",
+      "page": 219,
+      "caption": "Figura 3-13 de Fischbein y Ong (2009, p. 50). Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-041-guide.png",
+          "page": 219
+        }
+      ],
+      "notes": [],
+      "questions": [
+        256,
+        260,
+        262,
+        267,
+        269
+      ]
+    },
+    {
+      "id": "fig-042",
+      "title": "RM coronal de la faringe",
+      "region": "faringe",
+      "modality": "rm",
+      "plane": "Coronal",
+      "image": "assets/atlas/fig-042.jpg",
+      "width": 915,
+      "height": 776,
+      "bytes": 109358,
+      "sha256": "86707ddaaddff058089aab1c7064d6f40d5ffa673c4bf9efa8126fe302f94e71",
+      "page": 220,
+      "caption": "Figura 33-6 de Basterra Alegría y Alba García (2009a, p. 448). Corte coronal de RM con los elementos anatómicos de la faringe: techo de la rinofaringe, ostium tubárico, fosas nasales, velo del paladar, músculo pterigoideo, repliegue faringoepiglótico, muro faringolaríngeo y seno piriforme. El libro pide observar la relación de la hipofaringe con la laringe y cómo convergen hacia el seno piriforme las líneas que parten del",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-042-guide.png",
+          "page": 220
+        }
+      ],
+      "notes": [],
+      "questions": [
+        255,
+        256,
+        260,
+        266
+      ]
+    },
+    {
+      "id": "fig-043",
+      "title": "TC temporal: conducto auditivo interno",
+      "region": "oido",
+      "modality": "tc",
+      "plane": "Axial",
+      "image": "assets/atlas/fig-043.jpg",
+      "width": 1340,
+      "height": 513,
+      "bytes": 95670,
+      "sha256": "10906ac3e47de2a5abc7fb8bf431da3cb429ff75c2c06e675fe5446cbb331595",
+      "page": 221,
+      "caption": "Figura 4-4 de Basterra Alegría y Campos Catalá (2009, p. 43). A: corte axial del peñasco a nivel del conducto auditivo interno (CAI), con el paquete acusticofacial y el conducto semicircular superior; la mastoides está bien neumatizada y las celdas más amplias corresponden al ático, al aditus ad",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-043-guide.png",
+          "page": 221
+        }
+      ],
+      "notes": [],
+      "questions": [
+        80,
+        81,
+        82,
+        83
+      ]
+    },
+    {
+      "id": "fig-044",
+      "title": "TC temporal: cóclea y protímpano",
+      "region": "oido",
+      "modality": "tc",
+      "plane": "Axial y coronal",
+      "image": "assets/atlas/fig-044.jpg",
+      "width": 1339,
+      "height": 472,
+      "bytes": 85543,
+      "sha256": "21169ce1d6082782e9206efc7bddda3fcb588f156bbfc1580aa82ff11ff1a87b",
+      "page": 221,
+      "caption": "Figura 4-5 de Basterra Alegría y Campos Catalá (2009, p. 43). A: corte axial 2 mm más abajo; espiras de la cóclea, vestíbulo, conductos semicirculares horizontal y posterior, canal del músculo tensor del tímpano junto al protímpano y la trompa; en el ático, la cabeza del martillo y el",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-044-guide.png",
+          "page": 221
+        }
+      ],
+      "notes": [],
+      "questions": [
+        67,
+        71,
+        80,
+        81
+      ]
+    },
+    {
+      "id": "fig-045",
+      "title": "TC temporal: cóclea y nervio facial",
+      "region": "oido",
+      "modality": "tc",
+      "plane": "Coronal",
+      "image": "assets/atlas/fig-045.jpg",
+      "width": 1339,
+      "height": 554,
+      "bytes": 92140,
+      "sha256": "1fd038280d9b731dc72f1e317ab92277552d8316eb942f2602d6bd3f0c5fd6e3",
+      "page": 222,
+      "caption": "Figura 4-6 de Basterra Alegría y Campos Catalá (2009, p. 44). A: coronal 2 mm por detrás del anterior; relación entre el nervio facial, el músculo tensor del tímpano y la porción más anterior del caracol. B: coronal con el martillo y el tendón del tensor del tímpano; obsérvese el aspecto afilado",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-045-guide.png",
+          "page": 222
+        }
+      ],
+      "notes": [],
+      "questions": [
+        71,
+        80,
+        81
+      ]
+    },
+    {
+      "id": "fig-046",
+      "title": "TC temporal: huesecillos y vestíbulo",
+      "region": "oido",
+      "modality": "tc",
+      "plane": "Coronal y sagital",
+      "image": "assets/atlas/fig-046.jpg",
+      "width": 1339,
+      "height": 455,
+      "bytes": 88700,
+      "sha256": "7fa5c72505b36a2f3eace4ddf88c4d775302100e7e9dd8ef4736c4e70881372f",
+      "page": 222,
+      "caption": "Figura 4-7 de Basterra Alegría y Campos Catalá (2009, p. 44). A: coronal más posterior; yunque, CAI, vestíbulo con los conductos semicirculares y el promontorio, debajo del cual se sitúa la ventana redonda. B: sagital; ventana oval y su relación con el promontorio, y del vestíbulo y el golfo de",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-046-guide.png",
+          "page": 222
+        }
+      ],
+      "notes": [],
+      "questions": [
+        68,
+        69,
+        70,
+        80,
+        82
+      ]
+    },
+    {
+      "id": "fig-047",
+      "title": "TC temporal: vasos y canal facial",
+      "region": "oido",
+      "modality": "tc",
+      "plane": "Sagital y oblicuo",
+      "image": "assets/atlas/fig-047.jpg",
+      "width": 1335,
+      "height": 539,
+      "bytes": 102030,
+      "sha256": "200aba63008d2206baa3496d661bed48c6bee49a3e63d347aa51f540e2ba70cb",
+      "page": 222,
+      "caption": "Figura 4-8 de Basterra Alegría y Campos Catalá (2009, p. 45). A: sagital; relación de los grandes vasos con el protímpano y el CAI (C: carótida interna; Y: yugular). B: oblicua (sagital); porciones 1.ª y 2.ª del nervio facial y primer codo; la cadena osicular, seccionada a nivel del ático, da la",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-047-guide.png",
+          "page": 222
+        }
+      ],
+      "notes": [],
+      "questions": [
+        71,
+        76,
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "id": "fig-048",
+      "title": "Endoscopia nasal normal",
+      "region": "nariz",
+      "modality": "endoscopia",
+      "plane": "",
+      "image": "assets/atlas/fig-048.jpg",
+      "width": 638,
+      "height": 525,
+      "bytes": 39427,
+      "sha256": "8639a5b902fb55e73e45873c4fc26e77b34d367199f1caec36c94c86aabb9693",
+      "page": 223,
+      "caption": "Figura 24-3 de Basterra Alegría y Armengot Carceller (2009, p. 291). Visión endoscópica de la región anatómica de la fosa nasal que con mayor",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-048-guide.png",
+          "page": 223
+        }
+      ],
+      "notes": [],
+      "questions": [
+        191,
+        193,
+        196,
+        197,
+        198,
+        255
+      ]
+    },
+    {
+      "id": "fig-049",
+      "title": "Laringoscopia endoscópica normal",
+      "region": "laringe",
+      "modality": "endoscopia",
+      "plane": "Inspiración",
+      "image": "assets/atlas/fig-049.jpg",
+      "width": 638,
+      "height": 539,
+      "bytes": 57906,
+      "sha256": "bd676cfd866404a7d7f09e16dbd769229264b76549eb8d3e91d61c87228c0cf4",
+      "page": 223,
+      "caption": "Figura 45-3 de Basterra Alegría y Alba García (2009b, p. 583). Imagen laríngea endoscópica. Rótulos originales.",
+      "guides": [
+        {
+          "image": "assets/atlas/fig-049-guide.png",
+          "page": 223
+        },
+        {
+          "image": "assets/atlas/fig-049-legend.png",
+          "page": 224
+        }
+      ],
+      "notes": [],
+      "questions": [
+        309,
+        312,
+        314,
+        315,
+        324,
+        330,
+        331,
+        332
+      ]
+    }
+  ]
+}

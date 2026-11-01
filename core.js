@@ -1,7 +1,7 @@
 export const DAY = 86400000;
 export const LEVELS = {basic:'Básico',intermediate:'Intermedio',advanced:'Avanzado'};
 export const ROLES = {general:'Médico/a general',student:'Estudiante de Medicina',resident:'Residente',specialist:'Especialista',applicant:'Aspirante a ORL'};
-export const blankState = () => ({schema:1,records:{},history:[],activity:{},goal:20,session:null,profile:{name:'',role:'',institution:''},profileOnboarded:false});
+export const blankState = () => ({schema:1,records:{},atlasRecords:{},history:[],activity:{},goal:20,session:null,profile:{name:'',role:'',institution:''},profileOnboarded:false});
 export function normalizeProfile(value={}) {
  if(!value||typeof value!=='object'||Array.isArray(value))throw Error('Los datos del perfil no son válidos.');
  const read=(key,max)=>{const raw=value[key]??'';if(typeof raw!=='string')throw Error('Los datos del perfil no son válidos.');const clean=raw.replace(/[\u0000-\u001f\u007f]/g,' ').replace(/\s+/g,' ').trim();if(clean.length>max)throw Error('El nombre o el centro de formación es demasiado largo.');return clean;};
@@ -37,6 +37,18 @@ export function summarize(questions,state, now=Date.now()) {
 export function parseBackup(input,questions) {
  if(!input||input.app!=='orl-estudio'||input.schema!==1||!input.state||typeof input.state.records!=='object'||!input.state.records||Array.isArray(input.state.records))throw Error('Este archivo no es una copia válida de ORL Estudio.');
  const result=blankState();
+ if(input.state.atlasRecords!==undefined){
+  const visual=input.state.atlasRecords;
+  if(!visual||typeof visual!=='object'||Array.isArray(visual))throw Error('El repaso visual no es válido.');
+  for(const [id,r]of Object.entries(visual)){
+   if(!/^fig-\d{3}$/.test(id)||Number(id.slice(4))<1||Number(id.slice(4))>49||!r||typeof r!=='object'||Array.isArray(r))throw Error('La copia contiene imágenes desconocidas.');
+   const clean={};
+   if('saved'in r){if(typeof r.saved!=='boolean')throw Error('Favorito visual inválido.');clean.saved=r.saved;}
+   if('rating'in r){if(!['again','good'].includes(r.rating))throw Error('Autoevaluación visual inválida.');clean.rating=r.rating;}
+   if('reviewedAt'in r){if(typeof r.reviewedAt!=='number'||!Number.isFinite(r.reviewedAt)||r.reviewedAt<0||r.reviewedAt>1e14)throw Error('Fecha de repaso visual inválida.');clean.reviewedAt=r.reviewedAt;}
+   result.atlasRecords[id]=clean;
+  }
+ }
  if(input.state.profile!==undefined)result.profile=normalizeProfile(input.state.profile);
  result.profileOnboarded=input.state.profileOnboarded===true||Boolean(result.profile.name);
  const validIds=new Set(questions.map(q=>String(q.id)));

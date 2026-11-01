@@ -2,12 +2,16 @@
 from pathlib import Path
 import hashlib,json
 root=Path(__file__).resolve().parent.parent
-files=['./','./index.html','./styles.css','./app.js','./core.js','./bank.json','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./icon-maskable.png']
+files=['./','./index.html','./styles.css','./atlas.css','./app.js','./core.js','./atlas.js','./bank.json','./atlas.json','./examination.json','./manifest.webmanifest','./icon.svg','./icon-192.png','./icon-512.png','./icon-maskable.png']
+atlas=json.loads((root/'atlas.json').read_text())
+media=sorted(set(['./'+path for f in atlas['figures'] for path in [f['image']]+[g['image'] for g in f['guides']]]+['./'+p['image'] for p in atlas['examinationPhotos']]))
 digest=hashlib.sha256(b''.join((root/('index.html' if p=='./' else p[2:])).read_bytes() for p in files)).hexdigest()[:12]
 template=r'''const ROOT=new URL('./',self.location.href);
 const PREFIX='orl-estudio-'+ROOT.pathname.replace(/[^a-zA-Z0-9_-]/g,'_')+'-';
 const CACHE=PREFIX+'__VERSION__';
+const MEDIA=PREFIX+'media-v2';
 const FILES=__FILES__;
+const MEDIA_PATHS=new Set(__MEDIA__.map(path=>new URL(path,ROOT).pathname));
 const ASSETS=FILES.map(path=>new URL(path,ROOT).href);
 const PATHS=new Set(ASSETS.map(path=>new URL(path).pathname));
 self.addEventListener('install',event=>{event.waitUntil((async()=>{
@@ -22,7 +26,7 @@ self.addEventListener('install',event=>{event.waitUntil((async()=>{
  await self.skipWaiting();
 })());});
 self.addEventListener('activate',event=>{event.waitUntil((async()=>{
- for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE)await caches.delete(name);
+ for(const name of await caches.keys())if(name.startsWith(PREFIX)&&name!==CACHE&&name!==MEDIA)await caches.delete(name);
  await self.clients.claim();
 })());});
 self.addEventListener('message',event=>{
@@ -34,8 +38,13 @@ self.addEventListener('message',event=>{
 });
 self.addEventListener('fetch',event=>{
  const url=new URL(event.request.url);
- if(event.request.method!=='GET'||url.origin!==ROOT.origin||!PATHS.has(url.pathname))return;
+ if(event.request.method!=='GET'||url.origin!==ROOT.origin||(!PATHS.has(url.pathname)&&!MEDIA_PATHS.has(url.pathname)))return;
  event.respondWith((async()=>{
+  if(MEDIA_PATHS.has(url.pathname)){
+   const mediaCache=await caches.open(MEDIA);const key=url.origin+url.pathname;
+   const cached=await mediaCache.match(key);if(cached)return cached;
+   try{const response=await fetch(event.request);if(response.ok&&!response.redirected&&response.headers.get('Content-Type')?.startsWith('image/'))await mediaCache.put(key,response.clone());return response;}catch{return Response.error();}
+  }
   const cache=await caches.open(CACHE);
   if(event.request.mode==='navigate'){
    try{const network=await fetch(event.request);if(network.ok&&!network.redirected&&network.headers.get('Content-Type')?.includes('text/html'))return network;if(network.status===401||network.status===403||network.redirected)return network;}catch{}
@@ -45,5 +54,5 @@ self.addEventListener('fetch',event=>{
  })());
 });
 '''
-(root/'sw.js').write_text(template.replace('__VERSION__',digest).replace('__FILES__',json.dumps(files)))
+(root/'sw.js').write_text(template.replace('__VERSION__',digest).replace('__FILES__',json.dumps(files)).replace('__MEDIA__',json.dumps(media)))
 print('Offline cache version:',digest)
